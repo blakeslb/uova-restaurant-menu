@@ -1,7 +1,7 @@
-const spaceId = config.SPACEID;
+const spaceId = SPACEID;
 const spaceName = "Uova";
 const environmentId = "master"
-const accessToken = config.ACCESSTOKEN;
+const accessToken = ACCESSTOKEN;
 const url = `https://cdn.contentful.com/spaces/${spaceId}/environments/${environmentId}/entries?access_token=${accessToken}&order=fields.order&content_type=menuItems`
 
 const sectionTag = document.querySelector('section.grid')
